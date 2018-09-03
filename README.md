@@ -6,17 +6,19 @@ this project accomplishes its goal by assuming the website utilizes an url proto
 
 this program is extensible.  by creating more 'store objects', with the correct information, more shortcuts can easily be added.  information about this is provided at the end of this text.
 
-this program relies heavily on javascript, and NOT jQuery; so mileage with your browser may vary ( jQuery wasn't used cause it's been a while for programming, and something this simple shouldn't require overhead.  besides, then i gotta host jquery, or src to an outside source etc)
+this program relies heavily on javascript, and NOT jQuery; so mileage with your browser may vary.
 
 this program currently works, but it could definitely use some 'tidying up'.  as it stands, there is no encapsulation of functions and marginal encapsulation of var's, so your global domain could get collisions.  there is also extensive use of class names for dom manipulation and their names are inconsistent and perhaps confusing.  but it all works as of this upload.  it'll cleaned up eventually (i prooooooomise)
 
 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!URL MAGIC EXPLAINED
+!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-URL MAGIC EXPLAINED
+ok, lets talk about how this thing works.  we'll use amazon and homedepot as examples.
 
-ok, with all that out of the way, lets talk about how this thing works.  we'll use amazon and homedepot as examples.
+AMAZON EXAMPLE:
 
-AMAZON EXAMPLE
    first, lets visit amazon, and set all the settings how we want it (lowest price, free shipping, etc.)
    next, lets type something into amazons search and hit enter.  for this example lets use 'hose'.  so search for hose on amazon.
    
