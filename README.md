@@ -33,7 +33,9 @@ the url above contains two parts:
 
       1)an / address / we / are / querying
       2)key=value pairs of query parameters.  
-        
+
+NOTE THAT:
+   
    the address and key=value pairs are ALWAYS SEPERATED by ?
    and each key=value pair are ALWAYS SEPERATED by a &
       
