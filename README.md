@@ -36,8 +36,8 @@ the url above contains two parts:
 
 NOTE THAT:
    
-   the address and key=value pairs are ALWAYS SEPERATED by ?
-   and each key=value pair are ALWAYS SEPERATED by a &
+   1) the address and key=value pairs are ALWAYS SEPERATED by ? 
+   2) and each key=value pair are ALWAYS SEPERATED by a &
       
    in essence, all urls can be thought of in this fashion.
 
