@@ -48,7 +48,7 @@
         {name:"farmingville",url_text_to_add:"unitNo=4871"}
       ]
     },{
-      storeName:"amazon",
+      storeName:"amazon2",
       basicUrl:"http://ww.amazon.com",
       url_findMoreLocalStores:"",
       url_localStores:["https://www.amazon.com/s?url=search-alias%3Daps&field-keywords=","___searchTerm"],
@@ -56,10 +56,25 @@
       url_local_stores_breaker:"",
       local_stores:[]
     },{
+      storeName:"amazon",
+      url_localStores:["https://www.amazon.com/s/ref=sr_st_price-asc-rank?keywords=","___searchTerm","&fst=as%3Aoff&rh=n%3A2972638011%2Cn%3A3610851%2Cn%3A553958%2Cn%3A553966%2Ck%3Ahose%2Cp_85%3A2470955011&qid=1535999006&sort=price-asc-rank"],
+      basicUrl:"",
+      url_findMoreLocalStores:"",
+      local_stores:[]
+    },
+    {
       storeName:"ebay",
       basicUrl:"http://ww.ebay.com",
       url_findMoreLocalStores:"",
       url_localStores:["https://www.ebay.com/sch/i.html?_from=R40&_nkw=","___searchTerm","&LH_BIN=1&_sop=15&_oac=1"],
+      multiplePages:true,
+      url_local_stores_breaker:"",
+      local_stores:[]
+    },{
+      storeName:"joann",
+      basicUrl:"http://ww.joann.com",
+      url_findMoreLocalStores:"",
+      url_localStores:["https://www.joann.com/search?q=","___searchTerm","#q=","___searchTerm","&prefn1=how-to-get-it&prefn2=prod_type&prefv1=Available%20In-Store&prefv2=Product&addShipToHomeConditions=false"],
       multiplePages:true,
       url_local_stores_breaker:"",
       local_stores:[]
