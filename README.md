@@ -1,7 +1,4 @@
 # website_shortcuts
-shortcuts to online websites with predefined settings (local stores)
-
-Hey all,
 
 The purpose of this project is to allow one to permanently create shortcuts to their favorite websites, with certain settings turned on.
 
