@@ -31,8 +31,8 @@ yea....that's alot of text.  but lets try to break it down.
 
 the url above contains two parts: 
 
-      an address we are querying, and 
-      key=value pairs of query parameters.  
+      1)an / address / we / are / querying
+      2)key=value pairs of query parameters.  
         
    the address and key=value pairs are ALWAYS SEPERATED by ?
    and each key=value pair are ALWAYS SEPERATED by a &
