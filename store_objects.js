@@ -78,5 +78,23 @@
       multiplePages:true,
       url_local_stores_breaker:"",
       local_stores:[]
+    },{
+      storeName:"weather_underground",
+      basicUrl:"http://weatherunderground.com",
+      url_findMoreLocalStores:"",
+      url_localStores:["https://www.wunderground.com/weather/","___selectedLocalStoreText"],
+      multiplePages:true,
+      url_local_stores_breaker:"",
+      local_stores:[
+        {name:"oakdale",url_text_to_add:"us/ny/oakdale"}
+      ]
+    },{
+      storeName:"oakdale_pizza",
+      basicUrl:"",
+      url_findMoreLocalStores:"",
+      url_localStores:"https://www.google.com/search?q=oakdale%20pizza&ie=utf-8&oe=utf-8&hs=Aze&npsic=0&rflfq=1&rlha=0&rllag=40745197,-73118167,810&tbm=lcl&rldimm=12431421808285045199&ved=2ahUKEwiblJ3C6J_dAhXog-AKHcrHDucQvS4wAHoECAAQIg&rldoc=1&tbs=lrf:!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:9#rlfi=hd:;si:12431421808285045199;mv:!3m8!1m3!1d23553.066745480708!2d-73.11857806137698!3d40.743249324949545!3m2!1i56!2i374!4f13.1;tbs:lrf:!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:9",
+      multiplePages:true,
+      url_local_stores_breaker:"",
+      local_stores:[]
     }
     ];

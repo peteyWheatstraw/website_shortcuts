@@ -35,7 +35,7 @@
 
       createLocalStoresHTML();
 
-      applyDefaults();
+      // applyDefaults();
 
       displayLocalOptions();
     }
@@ -265,13 +265,22 @@
 </head>
   <body onload="init()">
 
+    <br>
+    <br>
     <div>
+      <span>Type what you want to search here -></span>
       <input type="text" id="searchTerm" onfocus="searchTermFocus()" value="SEARCH TERM">
-      <input type="checkbox" id="store_select_instore_checkbox" checked=true onclick='toggleLocalStores()'>
-      <label> instore</label>
+      <span hidden="true">
+        <input type="checkbox" id="store_select_instore_checkbox" checked=true onclick='toggleLocalStores()'>
+        <label> instore</label>
+      </span>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
     <fieldset>
-      <legend> select which stores to check</legend>
+      <legend align='center'> select which stores to check</legend>
       <span id="storesToSearch">
 <!--           <input type="checkbox" name="homedepot"><label>homedepot</label>
         <input type="checkbox" name="walmart"><label>walmart</label> -->
